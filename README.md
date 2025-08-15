@@ -1,4 +1,4 @@
-# 🧠 Age Detective — CNN on IMDB-WIKI  
+# 🧠 Age Detection — CNN on IMDB-WIKI  
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)  
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)](https://www.tensorflow.org/)  
@@ -6,7 +6,7 @@
 [![Dataset](https://img.shields.io/badge/Dataset-IMDB--WIKI-green)](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
-> Predicting human age from faces like it’s magic ✨ (but actually… it’s math).
+> Predicting human age from faces using ML models.
 
 ---
 
@@ -36,7 +36,7 @@ The model is trained and tuned for **low Mean Absolute Error (MAE)**, making it 
 ---
 
 ## 📂 Dataset  
-- **Source:** [IMDB-WIKI Dataset](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/)  
+- **Source:** [IMDB-WIKI Dataset](https://www.kaggle.com/datasets/abhikjha/imdb-wiki-faces-dataset)  
 - **Format Used:** Pre-cropped faces in folders (`00`–`99`) + `.mat` metadata  
 
 ---
