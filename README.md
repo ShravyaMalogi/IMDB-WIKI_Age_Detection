@@ -17,6 +17,36 @@ The model is trained and tuned for **low Mean Absolute Error (MAE)**, making it 
 
 ---
 
+## 📂 Repository Structure
+
+```
+
+real-time-senior-citizen-identifier/
+├── notebooks/
+│ ├── age_detection.ipynb (model training file)
+│ └── evaluation.ipynb
+│
+├── model/
+│ └── imdb_wiki_age_detection_model.keras
+│
+├── results/
+│ ├── Actual_vs_Predicted.png
+│ └── Visualization.ipynb
+│
+├── evaluation/
+│ ├── Accuracy.png
+│ ├── Classification Report.png
+│ ├── Confusion Matrix.png
+│ ├── Evaluation Metrics.png
+│ ├── Residual Histogram.png
+│ └── Scatter plot.png
+│
+├── requirements.txt
+└── README.md
+
+```
+---
+
 ## 🚀 Features  
 - 📂 Works on preprocessed IMDB-WIKI face images  
 - 🧮 CNN architecture optimized for regression  
