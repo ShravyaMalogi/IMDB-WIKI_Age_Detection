@@ -31,7 +31,7 @@ real-time-senior-citizen-identifier/
 │
 ├── results/
 │ ├── Actual_vs_Predicted.png
-│ └── Visualization.ipynb
+│ └── Visualization.ipynb (outputs)
 │
 ├── evaluation/
 │ ├── Accuracy.png
