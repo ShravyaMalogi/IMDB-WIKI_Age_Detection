@@ -60,11 +60,4 @@ The model is trained and tuned for **low Mean Absolute Error (MAE)**, making it 
 ---
 
 ## 🖼 Example Predictions  
-| Image | True Age | Predicted Age |
-|-------|----------|---------------|
-| 👩 | 25 | 26 |
-| 👨 | 45 | 43 |
-| 🧓 | 68 | 70 |
-
----
-path/to/image.jpg
+![visuals](/results/Actual_vs_Predicted.png)
