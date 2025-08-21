@@ -1,9 +1,9 @@
 # Age Detection on IMDB-WIKI  
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)  
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)](https://www.tensorflow.org/)  
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)](https://www.tensorflow.org/)         
+[![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)](https://opencv.org/)               
 [![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-red)](https://keras.io/)  
-[![Dataset](https://img.shields.io/badge/Dataset-IMDB--WIKI-green)](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
 > Predicting human age from faces using a CNN model.
