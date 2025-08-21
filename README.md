@@ -49,7 +49,7 @@ real-time-senior-citizen-identifier/
 - 📂 Large dataset (3,00,000+ images)
 - 🧮 CNN architecture optimized for regression
 - 🧠 Built using pre-trained model (MobileNetV3)  
-- 📊 Achieved **MAE ~4–5** on test data   
+- 📊 Achieved **MAE 4.78** on test data   
 - ⚡ Google Colab + GPU ready  
 
 ---
