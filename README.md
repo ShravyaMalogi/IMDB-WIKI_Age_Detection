@@ -72,11 +72,11 @@ real-time-senior-citizen-identifier/
 ## 🖼 Example Predictions  
 ![visuals](/results/Actual_vs_Predicted.png)
 
----
-
+<!------
 ## 📈 Results  
 <p align="center">MAE : 4.78</p>
 
 <p align="center">
   <img src="/evaluation/MAE.png" alt="mae" width="800"/>
 </p>
+  ------!>
