@@ -46,7 +46,7 @@ real-time-senior-citizen-identifier/
 ---
 
 ## 🚀 Features  
-- 📂 Works on preprocessed IMDB-WIKI face images  
+- 📂 Large dataset (3,00,000+ images)
 - 🧮 CNN architecture optimized for regression
 - 🧠 Built using pre-trained model (MobileNetV3)  
 - 📊 Achieved **MAE ~4–5** on test data   
