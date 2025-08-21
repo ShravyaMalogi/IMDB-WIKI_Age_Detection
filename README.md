@@ -1,4 +1,4 @@
-# 🧠 Age Detection — CNN on IMDB-WIKI  
+# Age Detection on IMDB-WIKI  
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)  
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)](https://www.tensorflow.org/)  
@@ -6,14 +6,12 @@
 [![Dataset](https://img.shields.io/badge/Dataset-IMDB--WIKI-green)](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
-> Predicting human age from faces using ML models.
+> Predicting human age from faces using a CNN model.
 
 ---
 
 ## 📌 Overview  
 This project is a **Convolutional Neural Network (CNN)** built to predict ages using the **IMDB-WIKI dataset** — one of the largest publicly available datasets of human faces with age labels.  
-
-The model is trained and tuned for **low Mean Absolute Error (MAE)**, making it accurate and efficient for real-world use.
 
 ---
 
@@ -49,19 +47,10 @@ real-time-senior-citizen-identifier/
 
 ## 🚀 Features  
 - 📂 Works on preprocessed IMDB-WIKI face images  
-- 🧮 CNN architecture optimized for regression  
-- 📊 Achieved **MAE ~4–5** on test data  
-- 🎯 Supports grayscale & RGB  
+- 🧮 CNN architecture optimized for regression
+- 🧠 Built using pre-trained model (MobileNetV3)  
+- 📊 Achieved **MAE ~4–5** on test data   
 - ⚡ Google Colab + GPU ready  
-
----
-
-## 🛠 Tech Stack  
-- **Python 3.x**  
-- **TensorFlow / Keras**  
-- **NumPy, Pandas**  
-- **Matplotlib** for visualization  
-- **PIL** for image preprocessing  
 
 ---
 
@@ -71,23 +60,23 @@ real-time-senior-citizen-identifier/
 
 ---
 
-## 📜 Training Details  
-- **Loss Function:** Mean Squared Error (MSE)  
-- **Optimizer:** Adam  
-- **Metrics:** Mean Absolute Error (MAE)  
-- **Batch Size:** 32  
-- **Image Size:** 128×128  
+## 📜 How It Works  
 
----
-
-## 📈 Results  
-| Metric | Value |
-|--------|-------|
-| MAE    | ~4–5  |
-| Dataset Size | ~500k images |
-| Epochs | 30–50 |
+**Dataset Preparation** → IMDB-WIKI dataset cleaned & preprocessed (faces resized to 128×128, normalized)  
+**Data Pipeline** → Image data generators handle batching, shuffling & augmentation  
+**Training Setup** → Model trained with Adam optimizer, MSE loss & MAE as evaluation metric  
+**Learning Process** → Trained in batches of 32, with checkpointing & early stopping.
 
 ---
 
 ## 🖼 Example Predictions  
 ![visuals](/results/Actual_vs_Predicted.png)
+
+---
+
+## 📈 Results  
+<p align="center">MAE : 4.78</p>
+
+<p align="center">
+  <img src="/evaluation/MAE.png" alt="mae" width="800"/>
+</p>
